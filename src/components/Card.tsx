@@ -21,7 +21,7 @@ export default function Card({title ,cost , storage, users , send , order}:CardP
             <p className={" font-medium py-2 w-full text-center border-b-[1px] border-b-gray-300 "}>{storage} GB Storage</p>
             <p className={"font-medium py-2 w-full text-center border-b-[1px] border-b-gray-300"}>{users} {users>1 ? "users":"user"} allowed</p>
             <p className={"font-medium py-2 w-full text-center border-b-[1px] border-b-gray-300"}>Send up to {send} GB</p>
-            <Button className={order!==2 ?"mx-auto rounded-md text-black py-4 mt-4 mb-4  bg-[#00df9a]":"mx-auto rounded-md bg-black py-4 mt-4 mb-4 text-[#00df9a]"}>
+            <Button className={order!==2 ?"mx-auto rounded-md text-black py-4 mt-4 mb-4  bg-[#00df9a] hover:bg-[#00cc8d]":"mx-auto rounded-md bg-black py-4 mt-4 mb-4 text-[#00df9a] "}>
             Start Trial
             
         </Button>

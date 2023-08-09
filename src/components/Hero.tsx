@@ -42,7 +42,7 @@ export default function Hero() {
       </p>
       <Button
         className={
-          "bg-[#00df9a] text-black  font-bold  text-medium  w-[20%] py-5 my-[5%]  "
+          "bg-[#00df9a] text-black  font-bold  text-medium  w-[20%] py-5 my-[5%]  hover:bg-[#00cc8d] "
         }
       >
         SUBMIT

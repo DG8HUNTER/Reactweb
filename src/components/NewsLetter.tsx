@@ -16,8 +16,8 @@ export default function NewsLetter() {
 
         <div className={"my-4"}>
             <div className={"flex flex-col  md:flex-row  items-center "}>
-                <input name="Email" placeholder=" Enter your Email" type="email"  className={"py-3 w-full text-black rounded-md"}/>
-                <Button className={"bg-[#00df9a] text-black rounded-md w-[35%] p-6 ml-4 mt-4 sm:mt-0 font-bold"}>Notify me</Button>
+                <input name="Email" placeholder=" Enter your Email" type="email"  className={"py-3 w-full text-black rounded-md px-2  focus:outline-none"}/>
+                <Button className={"bg-[#00df9a] text-black rounded-md w-[35%] p-6 ml-4 mt-4 sm:mt-0 font-bold hover:bg-[#00cc8d]"}>Notify me</Button>
             </div>
             <p className={"py-2"}>We care about your protection of your data.Read Our <span className={"text-[#00df9a] underline lg:py-2"}>Privacy Policy</span></p>
 
